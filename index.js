@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🪪 Dando Licencias", "🎟 Atendiendo Tickets", "🎮 Viendo Elpepepe.1","🚫 Sancionando Miembros"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'dnd', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
