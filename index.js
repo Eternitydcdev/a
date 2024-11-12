@@ -19,7 +19,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🪪 Dando Licencias", "🎟 Atendiendo Tickets", "🎮 Viendo Elpepepe.1","📋 Poniendo Multas","🚫 Sancionando Miembros","🔩 Siempre Trabajando","📡 Examinando Miembros","🚀 Lanzando cohetes ...","😉 Irdee BOT El mejor en todo"];
+const statusMessages = ["🪪 Dando Licencias", "🎟 Atendiendo Tickets", "🎮 Viendo Elpepepe.1","📋 Poniendo Multas","🚫 Sancionando Miembros","🔩 Siempre Trabajando","📡 Examinando Miembros","🚀 Lanzando cohetes ...","😉 Irdee BOT El mejor"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
